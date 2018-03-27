@@ -1,19 +1,51 @@
-[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
-    display: none !important;
+body {
+    padding-top: 60px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    text-transform: none !important;
+.login-dropdown-menu {
+    padding: 15px;
+    padding-bottom: 0px;
 }
 
-img {
-    /* Force auto height & width to prevent deformed images on mobile */
-    width: auto !important;
-    height: auto !important;
+.login-form-field {
+    margin-bottom: 15px;
 }
 
-code:not(.hljs) {
-    /* Do not wrap pre-formatted code snippets */
-    word-wrap: break-word;
-    white-space: normal;
+.login-form-submit {
+    clear: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.content-div {
+    text-align: left;
+    background-color: rgba(0,0,0,0);
+}
+
+.large-content-div {
+    text-align: center;
+}
+
+.login-name {
+    padding-right: 10px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.error-alert {
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .content-div-padding {
+        padding-top: 4em;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-div-padding {
+        padding-top: 1em;
+    }
 }
